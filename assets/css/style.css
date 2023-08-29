@@ -328,13 +328,13 @@ p {
 }
 
 /* ------------ Page Shop -------- */
-.darkBGShop {
+.headphones {
   display: flex;
+  justify-content: center;
   height: 100vh;
 }
 
 .headphones img {
-  justify-content: center;
   width: auto;
   height: 65vh;
   margin-top: 10vh;
@@ -345,7 +345,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 73vh auto 5vh 15vw;
+  margin-top: 73vh;
 }
 
 .cta {
