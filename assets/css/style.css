@@ -156,7 +156,13 @@ nav {
   margin-left: 1.6vw;
 }
 
-/* !  Main */
+/* --- Newsletter --- */
+.sidebarListNews li:before {
+  content: url("../img/Ellipse\ 1.svg");
+  margin-left: 2vw;
+}
+
+/* !  Page About */
 
 .custom-headerfont {
   margin: 20vh 32vw 10vh;
@@ -354,7 +360,72 @@ p {
   padding: 0.8rem 2rem;
 }
 
-/* !  Footer */
+/* ! - Newsletter */
+
+.newsletter {
+  position: fixed;
+  width: 100vw;
+}
+
+.layoutNews {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formulaStyle {
+  border: 1px solid #ebccc282;
+  border-radius: 20px;
+  width: 600px;
+  padding: 10px 20px;
+  background-color: #2e2e2eac;
+  position: absolute;
+}
+
+.formulaNews {
+  top: 200px;
+  left: 30vw;
+  height: 300px;
+}
+
+.formulaContact {
+  left: 30vw;
+  top: 600px;
+}
+
+.formulaNews h2,
+.formulaContact h2 {
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #ebccc2;
+  font-size: 1rem;
+}
+
+input,
+select {
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 0.7rem;
+}
+textarea {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #ebccc2;
+  height: 50px;
+  color: #737373;
+  font-family: WorkSans;
+  font-size: 1rem;
+}
 
 /* !  Hover-Effekte */
 
