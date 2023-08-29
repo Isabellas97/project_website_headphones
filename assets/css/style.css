@@ -450,3 +450,9 @@ input[type="submit"] {
   background-color: #ebccc2;
   color: #2e2e2e;
 }
+
+input[type="submit"]:hover {
+  background-color: #2e2e2e;
+  border: 1px solid #ebccc2;
+  color: #ebccc2;
+}
